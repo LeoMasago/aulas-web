@@ -1,0 +1,61 @@
+#cabecalho{
+    display: flex;
+}
+#cabecalho2{
+    display: flex;
+}
+#cabecalho3{
+    display: flex;
+}
+#livros{
+    height: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#cargo{
+    height: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#velo{
+    height: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#btnLivros{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(44, 41, 41);
+    background-color: #9fb0c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+#btnCargo{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(44, 41, 41);
+    background-color: #9fb0c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+#btnVelo{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(44, 41, 41);
+    background-color: #9fb0c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+.btn:active {
+    background-color: #007bff;
+}
